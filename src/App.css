@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: url('https://cdn.pixabay.com/photo/2015/12/25/13/03/sky-1107579_960_720.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  margin: auto;
+  margin-top: 200px;
+}
+input{
+  width: 300px;
+  height: 50px;
+  border-top: 2px solid #9DA9BB;
+  border-bottom: 2px solid  rgb(30, 29, 29);
+  border-left: 2px solid rgb(30, 29, 29);
+  border-right: 2px solid #9DA9BB;
+  background-color: transparent;
+  padding: 10px;
+  color: rgb(30, 29, 29);
+  font-size: 16px;
+  margin-top: 2px;
+}
+input::placeholder{
+  color: rgb(30, 29, 29);
+  font-size: 16px;
+}
+
+button{
+  width: 100px;
+  height: 50px;
+  background-color: transparent;
+  border-top: 2px solid  rgb(30, 29, 29);
+  border-bottom: 2px solid #9DA9BB;
+  border-right: 2px solid #9DA9BB;
+  border-left: 2px solid rgb(30, 29, 29);
+  margin-left: 5px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: rgba(164, 164, 164, 0.5);
+}
+
+.info{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 7px; */
+}
+
+ h3{
+  text-align: center;
+  font-size: 24px;
+  color: #D4DEEE;
+  font-weight: 500;
+}
+
+h2{
+  text-align: center;
+  font-size: 40px;
+  color: #1f1f1f;
+}
+
+.err{
+  color: rgb(219, 2, 2);
+}
